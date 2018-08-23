@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Poker Room" max_length="40" name="x_24017_sdlc_poker_poker_room" type="collection">
+        <element label="Acceptance Criteria" max_length="4000" name="acceptance_criteria" type="string"/>
+        <element label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element label="Blocked Reason" max_length="4000" name="blocked_reason" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element default="0" label="Expected number of votes" max_length="40" name="expected_number_of_votes" type="integer"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="0" label="Number of Votes" max_length="40" name="number_of_votes" type="integer"/>
+        <element label="Result" max_length="40" name="result" type="integer"/>
+        <element label="Short Description" max_length="160" name="short_description" type="string"/>
+        <element label="Sprint" max_length="32" name="sprint" reference="rm_sprint" type="reference"/>
+        <element label="Story" max_length="32" name="story" reference="x_24017_sdlc_poker_story_result" type="reference"/>
+        <index name="index">
+            <element name="sprint"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

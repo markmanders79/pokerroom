@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_24017_sdlc_poker_poker_room</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_24017_sdlc_poker_poker_room">sprintISNOTEMPTY^EQ<item endquery="false" field="sprint" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create result sets</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/*
+ * Written by: Roel Boiten
+ * Description: Automatically create all story result sets if sprint is known.
+ * Version: 1.0
+ * Date: 18 March 2016
+ */
+
+(function executeRule(current, previous /*null when async*/) {
+	//When sprint is know create story set for all stories.
+	var story = new GlideRecord('rm_story');
+	story.addQuery('sprint', current.sprint);
+	story.query();
+	while (story.next()) {
+		//creating the results
+		var storyResult = new GlideRecord('x_24017_sdlc_poker_story_result');
+		storyResult.initialize();
+		storyResult.room = current.sys_id;
+		storyResult.story = story.sys_id;
+		if (story.story_points != ''){
+			storyResult.end_result = story.story_points;
+			storyResult.state = 4;
+		} else {
+			storyResult.state = 1;
+		}
+		if (story.blocked){
+			storyResult.end_result = '';
+			storyResult.state = 4;
+			storyResult.blocked = 1;
+			storyResult.blocked_reason = story.blocked_reason;
+		}
+		storyResult.insert();
+	}	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>roel.boiten</sys_created_by>
+        <sys_created_on>2016-03-17 10:24:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bde6cd500f9e16005f3c3b6ce1050ef1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create result sets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+        <sys_update_name>sys_script_bde6cd500f9e16005f3c3b6ce1050ef1</sys_update_name>
+        <sys_updated_by>roel.boiten</sys_updated_by>
+        <sys_updated_on>2016-03-30 07:30:47</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=bde6cd500f9e16005f3c3b6ce1050ef1"/>
+</record_update>

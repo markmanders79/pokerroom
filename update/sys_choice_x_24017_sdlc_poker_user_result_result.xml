@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="result" table="x_24017_sdlc_poker_user_result" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>0</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>1</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2df1bba70f0616005f3c3b6ce1050e97</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:22:17</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>2</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1502bba70f0616005f3c3b6ce1050e90</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:22:28</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>3</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d12bba70f0616005f3c3b6ce1050e2e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:22:40</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>4</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4223fa70f0616005f3c3b6ce1050eea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:22:50</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>5</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e223fa70f0616005f3c3b6ce1050e89</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:23:01</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>6</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:23:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>093233e70f0616005f3c3b6ce1050e9a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:23:22</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>13</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>7</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:23:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac423fa70f0616005f3c3b6ce1050ee0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:23:33</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>21</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>8</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd5233e70f0616005f3c3b6ce1050e9a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:23:47</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>34</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>9</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:23:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc623fa70f0616005f3c3b6ce1050ed9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:24:00</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>55</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>10</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:24:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b6273e70f0616005f3c3b6ce1050e07</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:24:14</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>89</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>11</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:24:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6672b3e70f0616005f3c3b6ce1050e07</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:24:26</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>144</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>12</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:24:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31823fa70f0616005f3c3b6ce1050e52</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:24:38</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infinit</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>13</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:24:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd9233e70f0616005f3c3b6ce1050e3e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:24:57</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>?</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>14</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:25:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65a2bba70f0616005f3c3b6ce1050e9e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:25:11</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coffee!</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sequence>15</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:25:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5b2b3e70f0616005f3c3b6ce1050ea8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:25:24</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <name>x_24017_sdlc_poker_user_result</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 14:22:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>135bd76cdbd972006c7438dffe9619e0</sys_id>
+            <sys_mod_count>46</sys_mod_count>
+            <sys_name>result</sys_name>
+            <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+            <sys_update_name>sys_choice_x_24017_sdlc_poker_user_result_result</sys_update_name>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 14:25:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

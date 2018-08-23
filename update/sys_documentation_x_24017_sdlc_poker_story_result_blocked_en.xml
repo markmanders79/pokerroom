@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="blocked" label="Blocked" language="en" table="x_24017_sdlc_poker_story_result">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>blocked</element>
+            <help/>
+            <hint/>
+            <label>Blocked</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <plural>Blocked</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-30 07:27:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4d132f100f265a005f3c3b6ce1050e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Blocked</sys_name>
+            <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+            <sys_update_name>sys_documentation_x_24017_sdlc_poker_story_result_blocked_en</sys_update_name>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-30 07:27:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

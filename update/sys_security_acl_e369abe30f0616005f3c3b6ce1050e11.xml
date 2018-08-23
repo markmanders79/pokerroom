@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_24017_sdlc_poker_user_result</description>
+        <name>x_24017_sdlc_poker_user_result</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>roel.boiten</sys_created_by>
+        <sys_created_on>2016-03-15 13:44:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e369abe30f0616005f3c3b6ce1050e11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24017_sdlc_poker_user_result</sys_name>
+        <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+        <sys_update_name>sys_security_acl_e369abe30f0616005f3c3b6ce1050e11</sys_update_name>
+        <sys_updated_by>roel.boiten</sys_updated_by>
+        <sys_updated_on>2016-03-15 13:44:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

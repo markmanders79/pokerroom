@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>roel.boiten</sys_created_by>
+        <sys_created_on>2016-03-18 08:38:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c77fb5e40fd256005f3c3b6ce1050ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24017_sdlc_poker_story_result.scrum_user</sys_name>
+        <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+        <sys_security_acl display_value="x_24017_sdlc_poker_story_result">d5d62ba30f0616005f3c3b6ce1050e97</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c77fb5e40fd256005f3c3b6ce1050ec5</sys_update_name>
+        <sys_updated_by>roel.boiten</sys_updated_by>
+        <sys_updated_on>2016-03-18 08:38:16</sys_updated_on>
+        <sys_user_role display_value="scrum_user" name="scrum_user">0e38f60b0a0a2c395bf4d4b2a29ddf9b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

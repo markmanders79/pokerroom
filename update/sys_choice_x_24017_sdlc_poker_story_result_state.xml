@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_24017_sdlc_poker_story_result" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>To Do</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <sequence>0</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 13:39:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50582ba30f0616005f3c3b6ce1050e7b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 13:41:48</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Current</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <sequence>1</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 13:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17582fa30f0616005f3c3b6ce1050e24</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-18 09:49:58</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visible</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <sequence>2</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 13:40:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6278e3e30f0616005f3c3b6ce1050ed3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 13:41:48</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Done</label>
+            <language>en</language>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <sequence>3</sequence>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 13:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a882ba30f0616005f3c3b6ce1050e7b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 13:41:48</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_24017_sdlc_poker_story_result</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>roel.boiten</sys_created_by>
+            <sys_created_on>2016-03-15 13:39:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>575bd76cdbd972006c7438dffe9619de</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+            <sys_update_name>sys_choice_x_24017_sdlc_poker_story_result_state</sys_update_name>
+            <sys_updated_by>roel.boiten</sys_updated_by>
+            <sys_updated_on>2016-03-15 13:41:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

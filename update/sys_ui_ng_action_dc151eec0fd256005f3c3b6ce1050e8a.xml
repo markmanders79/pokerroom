@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_ng_action">
+    <sys_ui_ng_action action="INSERT_OR_UPDATE">
+        <action_name>vote</action_name>
+        <active>true</active>
+        <color/>
+        <comments/>
+        <condition/>
+        <form_button>true</form_button>
+        <form_more_item>false</form_more_item>
+        <hide_when_disabled>false</hide_when_disabled>
+        <hint/>
+        <list_button>false</list_button>
+        <name>Vote</name>
+        <navigate_back>false</navigate_back>
+        <order>100</order>
+        <script><![CDATA[/*
+ * Written by: Roel Boiten
+ * Description: This will display a window to insert a vote for teh active story.
+ * Version: 1.0
+ * Date: 18 March 2016
+ */
+
+//Create and open a new voting record.
+var voting = new GlideRecord('x_24017_sdlc_poker_user_result');
+voting.initialize();
+voting.result = 'Enter vote here!';
+voting.story = current.story;
+voting.insert();
+action.setRedirectURL(voting);
+]]></script>
+        <show_for>any</show_for>
+        <sys_class_name>sys_ui_ng_action</sys_class_name>
+        <sys_created_by>roel.boiten</sys_created_by>
+        <sys_created_on>2016-03-18 10:10:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc151eec0fd256005f3c3b6ce1050e8a</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Vote</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SDLC Poker Application" source="x_24017_sdlc_poker">5c25b2670fc216005f3c3b6ce1050ee0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SDLC Poker Application">5c25b2670fc216005f3c3b6ce1050ee0</sys_scope>
+        <sys_update_name>sys_ui_ng_action_dc151eec0fd256005f3c3b6ce1050e8a</sys_update_name>
+        <sys_updated_by>roel.boiten</sys_updated_by>
+        <sys_updated_on>2016-03-21 09:30:59</sys_updated_on>
+        <table>x_24017_sdlc_poker_poker_room</table>
+    </sys_ui_ng_action>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Story Result" max_length="40" name="x_24017_sdlc_poker_story_result" type="collection">
+        <element label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element label="Blocked Reason" max_length="4000" name="blocked_reason" type="string"/>
+        <element label="End Result" max_length="40" name="end_result" type="integer"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Result Number" max_length="40" name="number" type="string"/>
+        <element default="0" label="Number of Votes" max_length="40" name="number_of_votes" type="integer"/>
+        <element label="Room" max_length="32" name="room" reference="x_24017_sdlc_poker_poker_room" reference_cascade_rule="delete" reference_floats="true" type="reference"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="To Do" sequence="0" value="1"/>
+                <element label="Current" sequence="1" value="2"/>
+                <element label="Visible" sequence="2" value="3"/>
+                <element label="Done" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element dependent="room.sprint" dependent_on_field="room.sprint" label="Story" max_length="32" name="story" reference="rm_story" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="room"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

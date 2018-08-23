@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User Result" max_length="40" name="x_24017_sdlc_poker_user_result" type="collection">
+        <element choice="3" default="13" label="My vote" max_length="40" name="result" type="choice">
+            <choice>
+                <element label="0" sequence="1" value="10"/>
+                <element label="1" sequence="2" value="11"/>
+                <element label="2" sequence="3" value="12"/>
+                <element label="3" sequence="4" value="13"/>
+                <element label="5" sequence="5" value="14"/>
+                <element label="8" sequence="6" value="15"/>
+                <element label="13" sequence="7" value="16"/>
+                <element label="21" sequence="8" value="17"/>
+                <element label="34" sequence="9" value="18"/>
+                <element label="55" sequence="10" value="19"/>
+                <element label="89" sequence="11" value="20"/>
+                <element label="144" sequence="12" value="21"/>
+                <element label="Infinit" sequence="13" value="22"/>
+                <element label="?" sequence="14" value="23"/>
+                <element label="Coffee!" sequence="15" value="24"/>
+            </choice>
+        </element>
+        <element label="Story" max_length="32" name="story" reference="x_24017_sdlc_poker_story_result" reference_cascade_rule="delete" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>
